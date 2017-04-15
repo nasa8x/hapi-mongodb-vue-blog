@@ -18,8 +18,7 @@ module.exports = function (env) {
         output: {
             path: path.join(__dirname, './dist'),
             filename: '[name].js',
-            //publicPath: 'https://cdn.geekblr.com/',
-            // sourceMapFilename: '[name].map'
+            
         },
         module: {
             rules: [{
@@ -71,18 +70,14 @@ module.exports = function (env) {
 
     {
         entry: {
-            'www/js/app': './src/www/app.js',
-            //'www/css/layout': './src/www/css/layout.css',
-            // 'api': './src/server/api.js',
-            // 'admin': './src/server/admin.js',
-            // 'job': './src/server/job.js'
+            'www/js/app': './src/www/app.js'         
 
         },
         output: {
             path: path.join(__dirname, './dist'),
             //filename: '[name].[hash:8].js',
             filename: '[name].js',
-            publicPath: 'https://cdn.geekblr.com/',
+            //publicPath: 'https://cdn.blog.com/',
             //sourceMapFilename: '[name].map'
         },
         module: {

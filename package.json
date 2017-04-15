@@ -1,12 +1,12 @@
 {
-  "name": "geekblr.com",
+  "name": "hapi-mongodb-vue-blog",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "prod": "webpack --env=prod --progress --profile --colors",
     "dev": "webpack --env=dev --progress --profile --colors"
   },
-  "description": "geekblr.com",
+  "description": "Simple blog with Hapi.js, MongoDb and Vue.js for Beginners",
   "author": {
     "name": "Nasa8x",
     "email": ""
