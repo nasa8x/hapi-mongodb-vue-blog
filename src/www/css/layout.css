@@ -1,0 +1,116 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.4.2/sweetalert2.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic');
+@import url('bootstrap.min.css');
+@import url("base.min.css");
+@import url("site.min.css");
+@import url("color.min.css");
+@import url("login.min.css");
+
+
+a:link{
+  text-decoration: none;
+}
+
+.page{
+    margin: 0 auto;
+}
+
+.site-menu-icon{
+  font-size: 2.3em;
+}
+
+
+.form-control{
+  height: auto;
+}
+
+.main-nav.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    min-height: auto !important;
+    height: 64px !important
+}
+
+
+
+.main-nav .nav-link .fa{
+    font-size: 1.3em
+}
+
+.main-nav .navbar-brand {
+    /*height: auto !important;*/
+    min-height: auto !important
+}
+
+.nav-bg-gk {
+    background: #1b2b36 !important;
+}
+
+
+.main-nav .navbar-toolbar .nav-link{
+    padding: 20px;
+    color: #76838f;
+}
+
+
+.main-nav .tag-pill.up{
+    top: -18px;
+}
+.main-nav .prof-auth a.nav-link{
+    color: #447CA6;
+}
+
+.main-nav .prof-auth a.nav-link:hover{
+    color: #fff;
+    background: #233D50
+}
+
+.main-nav .prof-avt{
+    width: 30px;
+    height: 30px;
+}
+
+
+.quick-search {
+    box-shadow: none;
+    margin-top: 0.8rem;
+}
+.quick-search .form-control {
+    /*background: #132029;*/
+    width: 300px;
+    min-width: 300px;
+    /*border-color: transparent;*/
+    border-radius: 0 !important;
+    border: 1px solid #e4eaec;
+}
+
+.quick-search .form-control:focus{
+  border-color: #62a8ea;
+  background-color: #fff;
+}
+
+.quick-search .input-group-addon {
+    /*background-color: #21394a;*/
+    border-radius: 0;
+    padding: 0;
+    /*border-color: transparent;*/
+    border-left-style: none;
+    border-style: none;
+}
+
+.quick-search .btn { 
+    padding: 4px 15px;
+    border-radius: 0;
+}
+
+.quick-search .btn:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    /*background-color: #254156;*/
+}
